@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-1.11.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>TO DO LIST</title>
+</head>
+<body>
+  <div class="container">
+    <h1>To Do List</h1>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="list-section">
+          <h2>Lists</h2>
+          <ul id="lists">
+          </ul>
+          <div></div><!--list of list-->
+        </div> <!--list-->
+        <div class="list-create">
+          <h2>Create a List</h2>
+          <form id="createList">
+            <div class="form-group">
+              <label for="new-list-name"> New List</label>
+              <input type="text" class="form-control" id="new-list-name">
+            </div><!--form group-->
+            <button type="submit" class="btn btn-primary">Add List</button>
+          </form>
+
+        </div><!--list create-->
+
+      </div><!--column-->
+      <div class="col-md-6">
+        <div class="list-tasks" id="list-title">
+          <h2></h2>
+          <ul id="tasks">
+
+
+
+          </ul>
+        </div><!--list-tasks-->
+        <div class="new-task">
+          <h2>Add Task</h2>
+          <form id="addTask">
+            <div class="form-group">
+              <label for="new-task-name"> New Task:</label>
+              <input type="text" class="form-control" id="new-task-name">
+            </div><!--form group-->
+            <button type="submit" class="btn btn-primary">Add Task</button>
+          </form>
+
+
+
+        </div><!--task-create-->
+      </div> <!--column 2 div-->
+    </div> <!--row-->
+  </div>  <!--container-->
+</body>
+</html>

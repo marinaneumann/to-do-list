@@ -1,0 +1,9 @@
+#lists {
+  cursor:pointer;
+  color: #0088cc;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
